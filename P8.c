@@ -1,3 +1,6 @@
+//Aluno: Gustavo Castro Souza
+//Matricula: 11811EEL037
+
 #include<stdio.h>
 #include<stdlib.h>
 
