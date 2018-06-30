@@ -35,15 +35,13 @@ int main(){
 	}
 	else if(op==2)
 	{	
-		for(i=0; i<64; i++)
-			num[i]=0;
-					
+						
 		for(i=0; i<64; i++)
 		{
-			scanf("%d%c", &num[i], &aux);//mostrar e ler numeros
-			p = (char *) num;
-			if(aux==10)
+			scanf("%d", &num[i]); 
+			if(num[i]==0)
 				break;
+			p = (char *) num;
 		}
 		
 		printf("%s\n", p);
