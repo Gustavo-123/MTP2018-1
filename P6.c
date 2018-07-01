@@ -9,12 +9,10 @@ int soma(int *ref, int *px) {
 
 int main(){
 	
-	int quant;
+	int quant, i, num[20] = {};
 	
 	scanf("%i", &quant);
 	getchar();
-	
-	int i, num[quant];
 	
 	for(i=0; i<quant; i++){
 		scanf("%i", &num[i]);
@@ -23,7 +21,7 @@ int main(){
 	
 	int *pprimeiro = num, *pultimo = num+quant-1;
 	
-	printf("\nmedia = %f\n", (float) soma(pprimeiro, pultimo)/quant);
+	printf("media = %f\n", (float) soma(pprimeiro, pultimo)/quant);
 	
 	return 0;
 }
