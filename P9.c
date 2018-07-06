@@ -17,7 +17,7 @@ struct Produto{
 
 void cadastrar(struct Produto Quant[], int i)
 {
-	scanf("%s", &Quant[i].nome);
+	scanf("%s", Quant[i].nome);
 	scanf("%f", &Quant[i].preco);
 	scanf("%f", &Quant[i].dimensoes.largura);
 	scanf("%f", &Quant[i].dimensoes.profundidade);
