@@ -10,7 +10,7 @@ int main(){
 	for(i=0; i<256; i++)
 		str[i]='\0';
 	
-	printf("Escolha uma opcao:\n1 - Codificar\n2 - Descodificar\n");
+	printf("Escolha uma opcao:\n1 - Codificar\n2 - Decodificar\n");
 	scanf("%d", &op); getchar();
 	
 	if(op==1){
